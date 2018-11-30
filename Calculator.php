@@ -16,5 +16,13 @@ class Calculator
     {
         return $a / $b;
     }
+	
+    public function espar($a)
+    {
+        if(($a%2)==0){
+			return true;
+		}
+		return false;
+    }
  
 }
